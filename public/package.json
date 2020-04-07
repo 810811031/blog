@@ -1,0 +1,44 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./config/webpack.config.js",
+    "serve": "webpack-dev-server --progress --colors --hot --config ./config/webpack.config.js"
+  },
+  "keywords": [
+    "blog",
+    "react"
+  ],
+  "author": "allen",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "@types/react": "^16.9.32",
+    "@types/react-dom": "^16.9.6",
+    "babel-loader": "^8.1.0",
+    "cnpm": "^6.1.1",
+    "html-webpack-plugin": "^4.0.4",
+    "i": "^0.3.6",
+    "react-proxy-loader": "^0.3.5",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.32",
+    "@types/react-dom": "^16.9.6",
+    "cnpm": "^6.1.1",
+    "i": "^0.3.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

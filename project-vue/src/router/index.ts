@@ -8,6 +8,11 @@ const routes: RouteConfig[] = [
   {
     path: '/',
     name: 'Home',
+    component: () => import(/* webpackChunkName: "Home" */ '../views/Index.vue')
+  },
+  {
+    path: '/home/:id',
+    name: 'Detail',
     component: Home,
   },
   {
